@@ -29,7 +29,7 @@ const Navbar = () => {
 
   return (
     <nav className="navBar">
-      <button onClick={handleToggle}>
+      <button onClick={handleToggle} type="submit">
         {navbarOpen ? (
           <MdClose style={{ color: "#fff", width: "40px", height: "40px" }} />
         ) : (
@@ -37,20 +37,18 @@ const Navbar = () => {
         )}
       </button>
       <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
-        {links.map((link) => {
-          return (
-            <li key={link.id}>
-              <NavLink
-                to={link.path}
-                activeClassName="active-link"
-                onClick={() => closeMenu()}
-                exact
-              >
-                {link.text}
-              </NavLink>
-            </li>
-          );
-        })}
+        {links.map((link) => (
+          <li key={link.id}>
+            <NavLink
+              to={link.path}
+              activeClassName="active-link"
+              onClick={() => closeMenu()}
+              exact
+            >
+              {link.text}
+            </NavLink>
+          </li>
+        ))}
       </ul>
     </nav>
   );
