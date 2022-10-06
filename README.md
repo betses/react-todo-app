@@ -12,9 +12,8 @@
 - CSS3
 - JavaScript
 
-## Live Demo
+## [Live Demo](https://celebrated-semifreddo-675f84.netlify.app/)
 
-[Coming soon]("#")
 
 
 ## Getting Started
