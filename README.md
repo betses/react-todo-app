@@ -1,8 +1,8 @@
-![](https://img.shields.io/badge/Math-Magician-v1.0.0-blue.svg)
+![](https://img.shields.io/badge/To-doApp-v1.0.0-blue.svg)
 
-# Math-magician
+# ToDo App
 
-> this project is a simple calculator that does the functions of a calulator and it is done using react.
+> this project is a simple Todo App that does the adds tasks and removes them once they have been checked.
 
 
 ## Built With
